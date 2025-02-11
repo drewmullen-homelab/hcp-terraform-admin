@@ -2,27 +2,27 @@
 locals {
   imports = {
     team_ids = {
-      owners = "team-p9ryLNrpQ9TNmEFh"
+      owners = "team-o6DCATiUbPqTs4Es"
     }
     organization_membership_ids = {
       owners = {
-        "craig.sloggett@hashicorp.com"                           = "ou-tSVPjvXHB4iTqcPb"
-        "doormat@hashicorp.com"                                  = "ou-9KRr8gq4h6JikktE"
-        "api-org-craigsloggett-lab-xqsus22ynh@hashicorp.com"     = "ou-EhS6WkPBDVPxYYqd"
-        "api-team_1202828@hashicorp.com"                         = "ou-mLy6EZTkP2bKW9w3"
-        "gh-webhooks-craigsloggett-lab-db12onjulf@hashicorp.com" = "ou-j7QUTL6CcJUktJJC"
+        "api-team_2258556@hashicorp.com"                = "ou-1BM6JxW1YYXqAj1x"
+        "drew.mullen@hashicorp.com"                     = "ou-vUUwCgNicDFoEMPU"
+        "doormat@hashicorp.com"                         = "ou-aGp1vM5YBseMpjL4"
+        "api-org-mullen-hashi-ds268w7xqq@hashicorp.com" = "ou-6fBSGmkky3NyeQqa"
       }
     }
     project_ids = {
-      "Default Project" = "prj-1ifijXyay7xeH9Zc"
-      "Platform Team"   = "prj-qW7NitPW1R49WN4b"
+      "Default Project" = "prj-VvxBEbhnF43Q34jT"
+      "Modules"         = "prj-xATa8UybAJVgzBir"
+      "Platform Team"   = "prj-8QCM4pLrBrXPMsV2"
     }
     variable_set_ids = {
-      "TFE Provider Authentication" = "varset-FwFGK65suTr7eaAA"
-      "HCP Provider Authentication" = "varset-STBAvPjd212TqpgM"
+      "TFE Provider Authentication" = "varset-WifKFcAzY3pmueo5"
+      "AWS Provider Authentication" = "varset-DZbQEafyqDH5M3z4"
     }
     workspace_ids = {
-      hcp-terraform-admin = "ws-aAUcuGF6QEJKuQyL"
+      hcp-terraform-admin = "ws-tbDc7uRbrCeTjwaW"
     }
   }
 }
